@@ -1,0 +1,52 @@
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.master {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: rgb(38, 201, 23);
+}
+
+#orange {
+    background-color: rgb(255, 115, 0);
+}
+
+#pink {
+    background-color: rgb(255, 0, 153);
+}
+
+#red {
+    background-color: rgb(255, 34, 0);
+}
+
+#purple {
+    background-color: rgb(166, 36, 232);
+}
