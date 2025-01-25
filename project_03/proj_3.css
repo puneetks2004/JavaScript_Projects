@@ -1,0 +1,37 @@
+#master {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #a78bfa;
+}
+
+#clock {
+    background-color: #a78bfa;
+    height: auto;
+    width: auto;
+    border: 2px solid #a78bfa;
+    border-radius: 30px;
+    font-size: 100px;
+    margin:10px;
+    color:white;
+    padding: 10px;
+}
+
+#name {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:50px;
+    font-weight: 900;
+    margin: 10px;
+    padding:10px;
+
+
+}
