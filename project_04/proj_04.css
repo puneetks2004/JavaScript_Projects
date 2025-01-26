@@ -1,0 +1,150 @@
+body {
+    place-items: center;
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    /* Hides vertical scrollbars */
+    box-sizing: border-box;
+    background-color: #111827;
+
+}
+
+#parent {
+
+    border: 2px solid #bac3d0;
+    width: 450px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    background-color: #6ee7b7;
+    border-radius: 20px;
+
+}
+
+#segment_1 {
+    display: grid;
+    margin: 5px;
+}
+
+#segment_2 {
+    display: grid;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+#segment_3 {
+    display: grid;
+    margin: 5px;
+}
+
+#main_heading {
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#condition_1 {
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+#condition_2 {
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+#head {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+#input {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center; */
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: #111827;
+    color: white;
+    border-radius: 20px;
+}
+
+#last_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+
+}
+
+#last_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+
+}
+
+#storing_values {
+    color: black;
+    font-size: 15px;
+
+}
+
+#decreasing_count {
+    color: black;
+    font-size: 15px;
+}
+
+#low_or_high {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#newGame {
+    color: aliceblue;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
