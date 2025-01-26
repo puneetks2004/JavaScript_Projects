@@ -87,7 +87,7 @@ function display_message(message) {
 function endgame() {
     user_input.value = "";
     user_input.setAttribute("disabled", "");
-    p.classList.add('button');
+    p.classList.add('button');//p.classList.add('button') adds the class button to the class attribute of the p element. 
     p.innerHTML = `<h2 id="newGame"> start new game</h2>`;
     start_over.appendChild(p);//to append 
     play_game = false;
