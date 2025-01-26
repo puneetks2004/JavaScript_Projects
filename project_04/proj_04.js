@@ -105,6 +105,6 @@ function newgame() {
         storing_values.innerHTML = "";
         decreasing_count.innerHTML = `${11 - num_guess}`;
         p.remove();
-        user_input.removeAttribute('disabled');
+        user_input.removeAttribute('disabled');//When the "Start New Game" button is clicked, the game state is reset, but you may also need to re - enable the input field.
     })
 }
