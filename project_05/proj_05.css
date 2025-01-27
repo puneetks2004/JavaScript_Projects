@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    place-items: center;
+    overflow-y: hidden;
+    place-self: center;
+    align-self: center;
+    display: flex;
+    background-color: #020617;
+
+}
+
+#parent {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    border: 2px solid #334155;
+    place-self: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px #f8fafc,
+        -5px 5px 20px #f8fafc,
+        -5px -5px 20px #f8fafc,
+        5px -5px 20px#f8fafc;
+}
+
+.compartment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.box {
+    margin: 10px;
+    border: 2px solid #334155;
+    padding: 23px;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 2px 2px 10px #1e293b,
+        -2px 2px 10px #1e293b,
+        -2px -2px 10px #1e293b,
+        2px -2px 10px#1e293b;
+
+}
+
+.box:hover {
+
+    border: 2px solid orangered;
+
+}
+
+
+#input {
+    height: 50px;
+    width: 300px;
+    padding-left: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
+.rent {
+    background-color: #e11d48;
+}
+
+.dash {
+    background-color: #1d4ed8;
+}
+
+.maat {
+    background-color: #1e293b;
+}
+
+.ik {
+
+    background-color: #10b981;
+}
