@@ -1,0 +1,4 @@
+---> fully functional Weather-App
+---> it makes use of opensourceAPI to fetch live data over network
+---> open-weather-api is used here
+---> depending upon wheather colour also changes

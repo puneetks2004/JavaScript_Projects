@@ -1,0 +1,203 @@
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+background: linear-gradient(to bottom, #2193b0, #6dd5ed);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    place-items: center;
+    justify-content: center;
+    font-family: sans-serif
+
+
+
+}
+
+#parent {
+    background-color:black;
+    display: grid;
+    border-radius:20px;
+    padding:20px;
+    border:2px solid white;
+  
+
+}
+
+#segment_01 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    padding: 10px;
+
+}
+
+#input_box {
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 30px;
+    padding-left: 20px;
+    text-transform: capitalize;
+    outline:none;
+    border:none;
+    
+}
+
+#img_box {
+    background-color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+
+
+#search_img {
+    height: 25px;
+    width: 22px;
+
+}
+
+#segment_02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#real_img {
+    height: 150px;
+    width: 150px;
+}
+
+#segment_03 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+#real_temp {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#real_city {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+
+}
+
+#segment_04 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+#part_01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+#humidity_img {
+    height: 50px;
+    width: 50px;
+}
+
+#humidity_data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#percent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    color: white;
+    font-size: 20px;
+}
+
+#Humidity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+#net1 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+#part_02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+#wind_img {
+    height: 50px;
+    width: 50px;
+}
+
+#wind_data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+#speed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    color: white;
+    font-size: 20px;
+}
+
+#wind-speed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#net2 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
