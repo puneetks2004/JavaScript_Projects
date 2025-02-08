@@ -11,7 +11,6 @@ const img_box = document.querySelector("#img_box");
 const input_box = document.querySelector("#input_box");
 const parent = document.querySelector("#parent");
 
-
 img_box.addEventListener("click", function () {
     const part_1 = "https://api.openweathermap.org/data/2.5/weather?q=";
     const part_2 = "&appid=217fbdf0ca1d389b54a744f720c84d26&units=metric";
@@ -28,8 +27,9 @@ img_box.addEventListener("click", function () {
                 speed.innerHTML = "---";
                 real_city.innerHTML = "City Not Found";
                 real_temp.innerHTML = "---";
-                return;
-            }
+                input_box.value = "";//to clear
+                return;//to not go beyond down
+            }//A 404 error is a web error that occurs when a requested page is not found on a server.
 
             //note dot is used to access furthur innner contents
             real_city.innerHTML = data.name;
