@@ -21,7 +21,7 @@ API:
        id-  https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key} 
        key- 217fbdf0ca1d389b54a744f720c84d26
 
-Images:
+Images:![Image](https://github.com/user-attachments/assets/af3c1dfa-4c05-4211-9077-1e3cc8bf304b)
 
 
            
