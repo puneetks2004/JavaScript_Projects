@@ -2,25 +2,27 @@ body {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-background: linear-gradient(to bottom, #2193b0, #6dd5ed);
+    background-color: #020617;
     height: 100vh;
     display: flex;
     align-items: center;
     place-items: center;
     justify-content: center;
-    font-family: sans-serif
+    font-family: sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+
 
 
 
 }
 
 #parent {
-    background-color:black;
+    background-color: rgb(32, 240, 146);
     display: grid;
-    border-radius:20px;
-    padding:20px;
-    border:2px solid white;
-  
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid white;
+
 
 }
 
@@ -40,9 +42,9 @@ background: linear-gradient(to bottom, #2193b0, #6dd5ed);
     border-radius: 30px;
     padding-left: 20px;
     text-transform: capitalize;
-    outline:none;
-    border:none;
-    
+    outline: none;
+    border: none;
+
 }
 
 #img_box {
@@ -53,7 +55,7 @@ background: linear-gradient(to bottom, #2193b0, #6dd5ed);
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 
