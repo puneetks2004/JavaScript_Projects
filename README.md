@@ -23,3 +23,7 @@ Img :
 
   Random Password Generated
         ![Image](https://github.com/user-attachments/assets/ba127422-dd0e-4eb5-8988-acf69ba83ce6)
+
+
+  Password Selected
+        ![Image](https://github.com/user-attachments/assets/4230a7f1-26e9-4132-b896-50a78ea11f44)
