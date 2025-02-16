@@ -16,4 +16,6 @@ Usage :
         Click Copy to save it to the clipboard.
 
 Img :
-        
+
+  Initially
+        ![Image](https://github.com/user-attachments/assets/b6df1afd-1386-496f-b0f7-186402172211)
