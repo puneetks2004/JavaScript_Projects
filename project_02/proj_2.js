@@ -1,4 +1,4 @@
-const val = document.querySelector('#master');
+const val = document.querySelector('#btn');
 
 val.addEventListener('click', function (e) {
     e.preventDefault();//to prevent default behaviour of button of loading data to server
