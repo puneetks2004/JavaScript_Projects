@@ -35,7 +35,7 @@ regenerate.addEventListener("click", function () {
 
 
     input_box.value = password;//to display on screen
-    input_box.removeAttribute("id");
+    input_box.removeAttribute("id");//to remove because if copy than different id otherwise here different id so to automatically have shift in id
     input_box.setAttribute("id", "input_box");
 
 
