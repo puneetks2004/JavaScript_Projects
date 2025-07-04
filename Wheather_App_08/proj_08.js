@@ -1,7 +1,3 @@
-
-
-
-
 const real_temp = document.querySelector("#real_temp");
 const real_city = document.querySelector("#real_city");
 const percent = document.querySelector("#percent");
