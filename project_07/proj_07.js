@@ -10,11 +10,18 @@ btn.addEventListener("click", function () {
     }
     else {
         const li = document.createElement("li");
+
         li.innerHTML = input_box.value;
         container.appendChild(li);
+
+
         const span = document.createElement("span");
         span.innerHTML = "&#10006";
         li.appendChild(span);
+
+        if (input_box.value.length > 15) {
+            li.classList.add("long-text");
+        }
     }
     //to automatically erase it and keep space free for next time
     input_box.value = "";
