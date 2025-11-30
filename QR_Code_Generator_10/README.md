@@ -25,6 +25,8 @@ Users can enter any text or URL, and the app instantly generates a QR code using
 - Click the Generate Code button
 - QR Code appears instantly
 - Shows an alert message if input is empty
+- Live at: 
+https://java-script-projects-qrcode.vercel.app/
 
 🧠 How It Works
 
