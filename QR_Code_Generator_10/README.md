@@ -39,4 +39,5 @@ https://java-script-projects-qrcode.vercel.app/
 
 
 IMG : 
+
 <img width="1919" height="970" alt="Image" src="https://github.com/user-attachments/assets/d2395053-fc79-4798-8fb0-3e295d9b7c28" />
