@@ -11,5 +11,6 @@ The projects included are:
 - **Password Generator**
 - **To-Do List**
 - **Weather App**
+- **QR Code Generator**
 
 Each project is built using HTML, CSS, and vanilla JavaScript to demonstrate core concepts and interactivity.
