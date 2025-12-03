@@ -1,7 +1,7 @@
 
 const toggleButton = document.getElementById("theme");
 const img = document.getElementById("ima");
-
+//html root element
 toggleButton.addEventListener("click", () => {
     const html = document.querySelector("html");
     if (html.classList.toggle("dark"))
