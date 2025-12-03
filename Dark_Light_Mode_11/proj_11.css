@@ -1,0 +1,44 @@
+:root {
+    --primary-color: rgb(244, 244, 244);
+    --secondary-color: rgb(8, 192, 233);
+}
+
+.dark {
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: rgb(145, 136, 136);
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 242, 255);
+
+}
+
+#container {
+    padding: 20px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+}
+
+#secA {
+    padding: 20px;
+}
+
+#ima {
+    height: 60px;
+    width: 60px;
+}
+
+#secB {
+    padding: 20px;
+
+}
